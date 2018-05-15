@@ -1,0 +1,82 @@
+/*Titulo*/
+h1 {
+text-align: center;
+letter-spacing: 3px;
+text-decoration: underline;
+}
+/*Tipo de letra*/
+p {
+text-indent: 50px;
+text-align: justify;
+letter-spacing: 3px;
+}
+/*Video responsive*/
+video {
+width: 100%;
+height: auto;
+align-items: center;
+}
+/*Imagen responsive*/
+img{
+max-width: 100%;
+height: auto;
+}
+
+/*Fixed de la consola*/
+div.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    background-color: #a8d0e4;
+    border: 3px solid #1181ab;
+}
+/*Boton que cambia de color*/
+.boton
+  a:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid #1181ab;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.boton
+  a:hover, a:active {
+    background-color: #1181ab;
+    color: white;
+}
+
+body {
+margin: 0;
+}
+
+ul.topnav {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+position: -webkit-sticky; /* Safari */
+position: sticky;
+top: 0;
+}
+
+ul.topnav li {float: left;}
+ul.topnav li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+ul.topnav li a.active {background-color: #1181ab;}
+ul.topnav li.right {float: right;}
+@media screen and (max-width: 600px){
+ul.topnav li.right,
+ul.topnav li {float: none;}
+}
