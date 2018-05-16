@@ -14,12 +14,14 @@ letter-spacing: 3px;
 iframe {
 width: 100%;
 height: auto;
+align-items: center;
 }
 /*Imagen responsive*/
 img{
 max-width: 100%;
 height: auto;
 }
+
 /*Fixed de la consola*/
 div.fixed {
     position: fixed;
@@ -63,7 +65,6 @@ top: 0;
 }
 
 ul.topnav li {float: left;}
-
 ul.topnav li a {
 display: block;
 color: white;
@@ -73,11 +74,8 @@ text-decoration: none;
 }
 
 ul.topnav li a:hover:not(.active) {background-color: #111;}
-
 ul.topnav li a.active {background-color: rgb(230, 0, 18);}
-
 ul.topnav li.right {float: right;}
-
 @media screen and (max-width: 600px){
 ul.topnav li.right,
 ul.topnav li {float: none;}
